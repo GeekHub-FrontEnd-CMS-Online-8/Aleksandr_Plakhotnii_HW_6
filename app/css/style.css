@@ -153,14 +153,15 @@ main #home .wrapper .home-content {
           flex-basis: 466px;
 }
 
-.about-content .left-about h2:before {
-  content: close-quote;
-  width: 50px;
-  height: 4px;
-  background: #7a7a7a;
-  position: absolute;
-  top: -10px;
-  left: 4px;
+.about-content .left-about h2 {
+  text-align: left;
+}
+
+.about-content .left-about h2:after {
+  content: url("../img/about-line.jpg");
+  position: relative;
+  top: -100px;
+  right: 259px;
 }
 
 .about-content .left-about p {
