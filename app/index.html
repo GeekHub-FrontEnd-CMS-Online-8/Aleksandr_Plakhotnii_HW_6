@@ -5,6 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -13,11 +14,11 @@
        </div>
        <nav>
            <div class="top-menu">
-               <a href="#">Home</a>
-               <a href="#">About</a>
-               <a href="#">Service</a>
-               <a href="#">Portfolio</a>
-               <a href="#">Contact</a>
+               <a href="#home">Home</a>
+               <a href="#about">About</a>
+               <a href="#services">Service</a>
+               <a href="#portfolio">Portfolio</a>
+               <a href="#contact">Contact</a>
            </div>
        </nav>
     </header>
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section id="services">
             <div class="wrapper">
                 <div class="services-content">
                     <h2>Services</h2>
@@ -89,7 +90,7 @@
             <h2>My skills</h2>
             <img src="img/skills-graph.jpg" alt="my-skills">
         </section>
-        <section class="portfolio">
+        <section id="portfolio">
             <div class="wrapper">
                 <h2>Portfolio</h2>
                 <div class="grid">
@@ -135,16 +136,70 @@
                                 ultricies nec,</p>
                         </div>
                         <div class="carousel">
-                            <input type="radio" name="switch">
-                            <input type="radio" name="switch" checked>
-                            <input type="radio" name="switch">
+                            <span></span>
+                            <span class="fixed"></span>
+                            <span></span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="facts"><!--Фон-->
+            <div class="wrapper"><!--Центр-->
+                <div class="facts-content">
+                    <div class="box-facts">
+                        <img src="img/study.png" alt="study">
+                        <p class="study-clock">120</p>
+                        <p class="fact-name">hands to work</p>
+                    </div>
+                    <div class="box-facts">
+                        <img src="img/happiness.png" alt="happiness">
+                        <p class="study-clock">310</p>
+                        <p class="fact-name">happy client</p>
+                    </div>
+                    <div class="box-facts">
+                        <img src="img/deliver2.png" alt="delivery">
+                        <p class="study-clock">510</p>
+                        <p class="fact-name">finished project</p>
+                    </div>
+                    <div class="box-facts">
+                        <img src="img/cup.png" alt="cup">
+                        <p class="study-clock">510</p>
+                        <p class="fact-name">cups of coffee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer id="contact">
+        <div class="wrapper">
+            <h2>Say hello!</h2>
+            <div class="who-are-you">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="message">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="send">
+                <input type="submit" value="Send">
+            </div>
+            <hr>
+            <div class="social-flex">
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <p>2017. All Right Reserved</p>
+                <div class="top">
+                    <a href="#"><i class="fas fa-angle-up fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-
-
